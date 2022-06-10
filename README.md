@@ -1,1 +1,3 @@
-# rsschool-cv https://Missipi.github.io/rsschool-cv/cv
+# rsschool-cv 
+
+https://Missipi.github.io/rsschool-cv/
