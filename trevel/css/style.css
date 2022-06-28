@@ -218,7 +218,6 @@ h1{
   flex-wrap: wrap; 
   }
 
-
 .serach_form_field{
 background-color: transparent;
 width: 560px;
@@ -359,11 +358,11 @@ text-decoration:none;
 }
 
 .foto_sl{
-width: 800px;
-height: 800px;
-background: url(.jpg), #FFFFFF;
-border-radius: 16px;
-margin-left: 60px;
+  width: 250px;
+  height: 800px;
+  background: url(.jpg), #FFFFFF;
+  border-radius: 0px 16px 16px 0px;
+  margin-left: 60px;
 }
 
 .foto_sli{
@@ -373,12 +372,21 @@ margin-left: 60px;
   border-radius: 16px;
   justify-content: center;
   margin-left: 60px;
-  }
+}
+
+.foto_slid{
+  width: 400px;
+  height: 800px;
+  background: url(.jpg), #FFFFFF;
+  border-radius: 16px;
+  justify-content: center;
+  margin-left: 60px;
+}
 
 .switch_1{
-width: 20px;
-height: 20px;
-background: rgba(242, 120, 92, 0.5);
+  width: 20px;
+  height: 20px;
+  background: rgba(242, 120, 92, 0.5);
 }
 
 
