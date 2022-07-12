@@ -69,16 +69,13 @@ body{
   max-width: 1440px;
   height: 3830px;
   margin: auto;
-  background: url(../img/stories_fon.png) no-repeat;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: 1440px auto, 1331px auto;
+  background: url(../img/stories_fon.png) 100% no-repeat;
+  background-position: bottom;
   }
  
 
-   /*header*/
-
-header{
+   /*header*/ 
+  header{
   width: 1440px; 
   height: 765px;
   margin: 0 auto;
@@ -97,11 +94,12 @@ header{
   justify-content:space-between;
   height: 90px;
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+  width: 100%;
   }
 
   .header_nav{
-    height: 35px;
     width: 536px;
+    height: 35px;
     margin: auto;
   }
 
@@ -112,7 +110,7 @@ header{
   }
 
   .header_nav_item{
-    margin-left: 42px;
+    margin-left: 7%;
     list-style-type: none;
     text-align: center;
   }
@@ -124,16 +122,213 @@ header{
     font-style:normal;
     text-decoration:none;
   }
+
+
+  .wrapper_header {
+  padding-right:16px;
+  width: 165px;
+  height: 250px;
+  }
+
+
+
+.header_burger{
+display: none;
+width: 165px;
+height: 250px;
+
+}
+
+      /*burger*/
+  @media (max-width: 390px){
+
+    body.lock{
+      overflow: hidden;
+    }
+      .conteiner_header{
+        display: flex;
+        width: 100%;
+        height: 50px;
+        background: none;
+        box-shadow: none;
+        z-index: -1;
+     }
+   
+     .conteiner_header_burger{
+      display: flex;
+      width: 100%;
+      height: 50px;
+      padding-right: 10%;
+      background: none;
+      box-shadow: none;
+   }
+
+    .heder_logo_burger{
+      display: flex;
+      margin: auto;
+      margin-left: 10%;
+      width: 30px;
+      height: 30px;
+      background: url(../img/Vector.png) no-repeat; 
+     }
+
+     .heder_logo{
+      z-index: -1;
+      }
+   
+      .header_logo-linl{
+      z-index: -1;
+        }
+
+       .text_logo{
+        z-index: -1;
+     } 
+
+
+    .heder_burger{
+      display:block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+    }
+    body.lock{
+      overflow: hidden;
+    }
+  
+    .header_burger{
+      display: none;
+      display: block;
+      position: relative;
+      width: 165px;
+      height: 250px;
+      border-radius:10px;
+      z-index: 3;
+    }
+
+    .header_burger:before {
+      content:"";
+      background-color: #ffffff;
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      margin-left: 135px;
+    }
+    .header_burger:after{
+      content:"";
+      background-color: #ffffff;
+      position: absolute;
+      width: 15px;
+      height: 2px;
+      top: 15px;
+      margin-left: 135px;
+      }
+  
+      .burger_span{
+      content: "";  
+      position: absolute;
+      background-color: #ffffff;
+      left: 0px;
+      width: 15px;
+      height: 2px;
+      top: 9px;
+      margin-left: 135px;
+      transition: auto;
+    }
+  
+  
+    .header_burger:before{
+      top:3px;
+      transition: auto;
+    }
+    .header_burger:after{
+      transition: auto;      
+    }
+  
+  .header_burger:active:before{
+  transform: rotate(45deg);
+  margin: 15px;
+  }
+  
+  .header_burger:active:after{
+    transform: rotate(-45deg);
+    bottom: 9px;
+    margin: 3px 0px 0px 15px;
+    }
+  
+  .burger_span:active{
+    transform:scale(0deg);
+    z-index: -1;
+  }
+  
+
+   .header_burger:active{
+    display: none;
+    display: block;
+    position: relative;
+    width: 165px;
+    height: 250px;
+    z-index: 3;
+  }
+  
+   .header_nav{
+    background-color: #F2785C;
+    border-radius:10px;
+    width: 165px;
+    height: 250px;
+    margin: auto;
+  }
+
+  .header_nav{
+    display: block;
+    width: 165px;
+    height: 250px;
+    margin: auto;
+   z-index: -1;   }
+
+  .hedear_nav_list{
+  padding-top: 50px;
+  display: block;
+  flex-wrap: wrap;  
+  }
+
+  .header_nav_item{
+    padding-left: 40px;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 3px;
+    text-align: left;
+  }
+
+  .header_link{
+    font-family:'Red Had Text';
+    font-size:16px;
+    color:#ffffff;
+    font-style:normal;
+    text-decoration:none;
+  }
+      
+     .login_form{
+      z-index: -1;
+     }
+  
+  }
+
+
+    /* end burger*/
+
       
  .heder_logo {
   display: flex;
   flex-wrap: wrap;
   margin: auto;
-  margin-left: 120px;
+  margin-left: 12%;
+  background: url(../img/Vector.png) no-repeat;
+  width: 25%;
  }
 
  .header_logo-linl{
   list-style-type: none;
+  padding-right: 10%;
  }
 
  .text_logo{
@@ -152,6 +347,8 @@ header{
 
  .login_form{
   display: flex;
+  width: 20%;
+  height: 30%;
   margin: auto;
  }
 
@@ -298,14 +495,14 @@ text-decoration:none;
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding-right: 231px;
+  padding-right: 5%;
  }
 
 .step_2{
   display: block;
   margin: 0 auto;
   text-align: center;
-  padding-right: 160px;
+  padding-right: 5%;
 }
 
 .step_3{
@@ -362,7 +559,7 @@ text-decoration:none;
   height: 800px;
   background: url(.jpg), #FFFFFF;
   border-radius: 0px 16px 16px 0px;
-  margin-left: 60px;
+  
 }
 
 .foto_sli{
@@ -513,12 +710,13 @@ display: flex;
 width: 1440px;
 height: 61px;
 margin-top: 15px;
+margin: auto;
 }
 
 .footer_info{
 width: 260px;
 height: 21px;
-margin: 5px 328px 0px 590px;
+margin: 20px 328px 0px 590px;
 }
 
 .footer_info_text{
@@ -531,6 +729,7 @@ color: #FFFFFF;
 .messengers{
   width: 140px;
   height: 33px;
+  margin-top: 15px;
  }
 
 .messenger{
@@ -544,5 +743,4 @@ color: #FFFFFF;
   display: flex;
   width: 140px;
   height: 33px;
-
 }
