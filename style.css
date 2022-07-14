@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Joan;
+  src: url("assets/fonts/Joan.ttf");
+  font-weight: 100;
+}
+@font-face {
+  font-family: Joan;
+  src: url("assets/fonts/Joan.ttf");
+  font-weight: 300;
+}
+
+.size-fon {
+  height: auto;
+  width: 940px;
+}
+
+.topic {
+  background: rgb(143, 245, 245);
+  width: 100%;
+  height: 20px;
+}
+
+.conteiner {
+  background:  rgb(199, 252, 252);
+}
+
+.left-conteiner { 
+  background: rgb(199, 252, 252);
+}
+
+.right-conteiner {
+  background:  rgb(199, 252, 252);
+  line-height: 50px;
+  width: 540px;
+  height: auto;
+}
+
+h1 {
+  padding: 15px;
+  font: 24px, Arial, sans-serif;
+  color: rgb(5, 173, 173);
+  width: 940px;
+  height: auto;
+}
+
+h2{
+  padding: 15px;
+  font: 20px, Arial, sans-serif;
+  color: rgb(5, 173, 173);
+  width: 940px;
+  height: auto;
+}
+#footer{background: rgb(143,245,245);
+  width: 940px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+     }
+     
+
+  .constryctor {
+    width: 940px;
+    height: auto;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+           }
+  
+a {
+  cursor: pointer; 
+}
+
+#footer-centr{
+  font: 26px, Arial, sans-serif;
+  width: 90px;
+  height: auto;
+  text-align: center;
+    }
