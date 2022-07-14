@@ -17,4 +17,4 @@ At the current place of work, the acquired knowledge is applied partially, basic
 **19.02.2019** UKUP BCCI “Center for Business Education” seminar “Exhibition activities. How to increase the effectiveness of participation in exhibitions.  
 **06.09.-06.09.2019** UKUP BCCI “Center for Business Education” seminar “Business communication etiquette with foreign partners”.  
 **30.12.2021** Export Academy of the Belarusian Chamber of Commerce and Industry, business course “Export: features of work in modern conditions”.  
-**04.10.20021-27.01.2022** English, level - beginner (A1), Underground foreign language school.  
+**04.10.20021-27.01.2022** English, level - beginner (A1), Underground foreign language school. 
